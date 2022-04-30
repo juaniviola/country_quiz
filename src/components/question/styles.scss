@@ -1,0 +1,81 @@
+.button_game {
+  border: 1px solid #8085D9;
+  border-radius: 8px;
+  background-color: white;
+  color: #8085D9;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #8085D9;
+    color: white;
+  }
+
+  &:active {
+    background-color: #F9A826;
+    color: white;
+    border: 1px solid white;
+  }
+}
+
+.correct_question {
+  background-color: #60BF88;
+  color: white;
+  border: 1px solid white;
+}
+.bad_question {
+  background-color: #EA8282;
+  color: white;
+  border: 1px solid white;
+}
+
+.qcontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+
+  .logo {
+    img {
+      float: right;
+      width: 120px;
+      height: 110px;
+      margin-top: -80px;
+      margin-right: -10px;
+    }
+  }
+
+  .questions {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      span {
+        &:first-child {
+          margin-right: 20px;
+        }
+      }
+
+      img {
+        float: right;
+      }
+    }
+  }
+
+  .next {
+    button {
+      float: right;
+      padding: 10px 20px;
+      border: none;
+      background-color: #F9A826;
+      color: white;
+    }
+  }
+}

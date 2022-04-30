@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Kuala Lumpur is the capital of",
+    "answers": [
+      { "answer": "Vietnam", "correct": false },
+      { "answer": "Malaysia", "correct": true },
+      { "answer": "Sweden", "correct": false },
+      { "answer": "Austria", "correct": false }
+    ]
+  },
+  {
+    "question": "In which country are the world’s 10 coldest cities located?",
+    "answers": [
+      { "answer": "United States", "correct": false },
+      { "answer": "Russia", "correct": true },
+      { "answer": "Sweden", "correct": false },
+      { "answer": "Canada", "correct": false }
+    ]
+  },
+  {
+    "question": "Supposedly home to a “monster,” Loch Ness is one of many inland seas—or “lochs”—in which country?",
+    "answers": [
+      { "answer": "Wales", "correct": false },
+      { "answer": "England", "correct": false },
+      { "answer": "Ireland", "correct": false },
+      { "answer": "Scotland", "correct": true }
+    ]
+  },
+  {
+    "question": "Which country has three capital cities—Pretoria, Cape Town, and Bloemfontein?",
+    "answers": [
+      { "answer": "Nigeria", "correct": false },
+      { "answer": "Chile", "correct": false },
+      { "answer": "South Africa", "correct": true },
+      { "answer": "Australia", "correct": false }
+    ]
+  }
+]
